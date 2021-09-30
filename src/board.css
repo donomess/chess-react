@@ -1,0 +1,64 @@
+/* Tutorial from https://betterprogramming.pub/how-to-build-a-chess-board-with-javascript-480ab182739e
+and https://codepen.io/macro6461/pen/xxGzydR */
+/*modified the board slightly to be more original size and style wise.*/
+body{
+    display: block;
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.square{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    animation: fadeIn 0.5s;
+}
+
+#boardOuter{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#boardInner{
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#numberContainer{
+    width: 200px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+#letterContainer{
+    width: 25px;
+    display: inline-block;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.label{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    width: 200px;
+    height: 25px;
+}
+
+/* got rid of the spinning part of the fadein. Feel 
+like it is not needed */
