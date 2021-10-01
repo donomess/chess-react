@@ -1,6 +1,6 @@
 import Piece from './piece.js';
-import bknight from '../src/ChessPieces/bknight.png';
-import wknight from '../src/ChessPieces/wknight.png';
+import bknight from '../ChessPieces/bknight.png';
+import wknight from '../ChessPieces/wknight.png';
 
 export default class Knight extends Piece {
   constructor(player){

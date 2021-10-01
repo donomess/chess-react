@@ -1,6 +1,6 @@
 import Piece from './piece.js';
-import bbishop from '../src/ChessPieces/bbishop.png';
-import wbishop from '../src/ChessPieces/wbishop.png';
+import bbishop from '../ChessPieces/bbishop.png';
+import wbishop from '../ChessPieces/wbishop.png';
 
 export default class Bishop extends Piece {
     constructor(player){

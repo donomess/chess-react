@@ -1,6 +1,6 @@
 import Piece from './piece.js';
-import brook from '../src/ChessPieces/brook.png';
-import wrook from '../src/ChessPieces/wrook.png';
+import brook from '../ChessPieces/brook.png';
+import wrook from '../ChessPieces/wrook.png';
 
 export default class Rook extends Piece {
   constructor(player){

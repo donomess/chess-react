@@ -1,6 +1,6 @@
 import Piece from './piece.js';
-import bpawn from '../src/ChessPieces/bpawn.png';
-import wpawn from '../src/ChessPieces/wpawn.png';
+import bpawn from '../ChessPieces/bpawn.png';
+import wpawn from '../ChessPieces/wpawn.png';
 
 export default class Pawn extends Piece{
     constructor(player){
