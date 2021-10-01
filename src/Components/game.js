@@ -130,7 +130,7 @@ export default class Game extends React.Component {
 
             <div className="fallen-soldier-block">
               
-              {<FallenSoldierBlock
+              {<FallenSoldier
               whiteFallenSoldiers = {this.state.whiteFallenSoldiers}
               blackFallenSoldiers = {this.state.blackFallenSoldiers}
               />
