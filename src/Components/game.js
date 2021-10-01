@@ -140,7 +140,7 @@ export default class Game extends React.Component {
         </div>
 
         <div className="icons-attribution">
-          <div> <small> Followed a tutorial online for this. Tried to make small changes to make it somewhat closer to my own. <a href="https://www.techighness.com/post/develop-two-player-chess-game-with-react-js/">Tutorial I followed.</a>Please note the turn thing is actually reversed so when it says white, it's black's turn and when it says black, it's white's turn. Of all the things I couldn't get working, it was this. </small></div>
+          <div> <small> Followed a tutorial online for this. Tried to make small changes to make it somewhat closer to my own. <a href="https://www.techighness.com/post/develop-two-player-chess-game-with-react-js/">Tutorial I followed.</a> </small></div>
         </div>
       </div>
 
