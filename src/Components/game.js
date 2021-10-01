@@ -8,7 +8,7 @@ import React from 'react';
 import '../index.css';
 import Board from './board.js';
 import FallenSoldier from './FallenSolider.js';
-import makeBoard from '../helpers/makeBoard.js';
+import makeBoard from '../HelperFunc/makeBoard.js';
 
 export default class Game extends React.Component {
   constructor(){
