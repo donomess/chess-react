@@ -1,6 +1,6 @@
 import Piece from './piece.js';
-import bking from './react-chess/src/ChessPieces/bking.png';
-import wking from './react-chess/src/ChessPieces/wking.png';
+import bking from '../react-chess/src/ChessPieces/bking.png';
+import wking from '../react-chess/src/ChessPieces/wking.png';
 
 export default class King extends Piece{
     constructor(player){

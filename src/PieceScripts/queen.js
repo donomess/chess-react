@@ -1,6 +1,6 @@
 import Piece from './piece.js';
-import bqueen from './src/ChessPieces/bqueen.png';
-import wqueen from './src/ChessPieces/bqueen.png';
+import bqueen from '../src/ChessPieces/bqueen.png';
+import wqueen from '../src/ChessPieces/bqueen.png';
 
 export default class Queen extends Piece {
     constructor(player){
