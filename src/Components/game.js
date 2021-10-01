@@ -20,7 +20,7 @@ export default class Game extends React.Component {
       player: 1,
       sourceSelection: -1,
       status: '',
-      turn: 'white'
+      turn: 'black'
     }
   }
  
